@@ -1,0 +1,23 @@
+- name: "Position not yet confirmed"
+  role: "President"
+  status: "Vacant or pending"
+  status_key: "unknown"
+  note: "Replace this entry when the role and appointment process are publicly confirmed."
+
+- name: "Position not yet confirmed"
+  role: "Vice President"
+  status: "Vacant or pending"
+  status_key: "unknown"
+  note: "Replace this entry when the role and appointment process are publicly confirmed."
+
+- name: "Position not yet confirmed"
+  role: "Treasurer"
+  status: "Vacant or pending"
+  status_key: "unknown"
+  note: "Replace this entry when the role and appointment process are publicly confirmed."
+
+- name: "Position not yet confirmed"
+  role: "Secretary"
+  status: "Vacant or pending"
+  status_key: "unknown"
+  note: "Replace this entry when the role and appointment process are publicly confirmed."
