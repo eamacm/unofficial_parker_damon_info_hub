@@ -1,0 +1,17 @@
+---
+layout: page
+title: Updates
+permalink: /updates/
+intro: Short, dated summaries of publicly available information and developing PTO matters.
+---
+
+<div class="stack">
+  {% for post in site.posts %}
+  <article class="update-card">
+    <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.summary }}</p>
+    {% if post.status %}<span class="status status-neutral">{{ post.status }}</span>{% endif %}
+  </article>
+  {% endfor %}
+</div>
